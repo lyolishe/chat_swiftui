@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View { 
+     @StateObject var viewModel: LoginViewModel = LoginViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if (viewModel.isLoggedIn) {
+            ChatsView().environmentObject(viewModel)
+        } else {
+            LogInView().environmentObject(viewModel)
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

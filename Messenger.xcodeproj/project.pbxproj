@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051D7A0F266379FF00236E96 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A0E266379FF00236E96 /* EndPointType.swift */; };
+		051D7A1126637CE700236E96 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A1026637CE700236E96 /* HTTPMethod.swift */; };
+		051D7A1326637DC500236E96 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A1226637DC500236E96 /* HTTPTask.swift */; };
+		051D7A1526637EBF00236E96 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A1426637EBF00236E96 /* ParameterEncoding.swift */; };
+		051D7A1726638A8F00236E96 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A1626638A8F00236E96 /* URLParameterEncoder.swift */; };
+		051D7A1926638F6600236E96 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A1826638F6600236E96 /* JSONParameterEncoder.swift */; };
+		051D7A1B2663904C00236E96 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A1A2663904C00236E96 /* NetworkRouter.swift */; };
+		051D7A1D2663935C00236E96 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A1C2663935C00236E96 /* Router.swift */; };
+		051D7A1F26639FC000236E96 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D7A1E26639FC000236E96 /* AuthApi.swift */; };
+		051F1FE026343CDB00C5D3FF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F1FDF26343CDB00C5D3FF /* RegisterViewModel.swift */; };
+		0537DF732632D48E005E5058 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537DF722632D48E005E5058 /* ChatsView.swift */; };
 		0540B40B2618749100D84562 /* MessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540B40A2618749100D84562 /* MessengerApp.swift */; };
 		0540B40D2618749100D84562 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540B40C2618749100D84562 /* ContentView.swift */; };
 		0540B40F2618749200D84562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0540B40E2618749200D84562 /* Assets.xcassets */; };
 		0540B4122618749200D84562 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0540B4112618749200D84562 /* Preview Assets.xcassets */; };
 		0540B41D2618749200D84562 /* MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540B41C2618749200D84562 /* MessengerTests.swift */; };
 		0540B4282618749200D84562 /* MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540B4272618749200D84562 /* MessengerUITests.swift */; };
+		054FE4D82619DB40000EE4EF /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FE4D72619DB40000EE4EF /* LogInView.swift */; };
+		054FE4E62619DCA7000EE4EF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FE4E52619DCA7000EE4EF /* RegisterView.swift */; };
+		05691F84261F4A5D00AF2FB9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05691F83261F4A5D00AF2FB9 /* LoginViewModel.swift */; };
+		05EF7DC92665708300391BEA /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF7DC82665708300391BEA /* AuthController.swift */; };
+		05EF7DCB2665743300391BEA /* NetworlHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF7DCA2665743300391BEA /* NetworlHandler.swift */; };
+		05EF7DCD266574CC00391BEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF7DCC266574CC00391BEA /* User.swift */; };
+		05F7FB1F262898B800A9D529 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7FB1E262898B800A9D529 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051D7A0E266379FF00236E96 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		051D7A1026637CE700236E96 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		051D7A1226637DC500236E96 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		051D7A1426637EBF00236E96 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		051D7A1626638A8F00236E96 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		051D7A1826638F6600236E96 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		051D7A1A2663904C00236E96 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		051D7A1C2663935C00236E96 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		051D7A1E26639FC000236E96 /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		051F1FDF26343CDB00C5D3FF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		0537DF722632D48E005E5058 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 		0540B4072618749100D84562 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0540B40A2618749100D84562 /* MessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerApp.swift; sourceTree = "<group>"; };
 		0540B40C2618749100D84562 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +74,13 @@
 		0540B4232618749200D84562 /* MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0540B4272618749200D84562 /* MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerUITests.swift; sourceTree = "<group>"; };
 		0540B4292618749200D84562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054FE4D72619DB40000EE4EF /* LogInView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		054FE4E52619DCA7000EE4EF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		05691F83261F4A5D00AF2FB9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		05EF7DC82665708300391BEA /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		05EF7DCA2665743300391BEA /* NetworlHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworlHandler.swift; sourceTree = "<group>"; };
+		05EF7DCC266574CC00391BEA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		05F7FB1E262898B800A9D529 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +108,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051D7A072663789B00236E96 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				051D7A0D266379A200236E96 /* Encoding */,
+				051D7A0C2663799500236E96 /* Service */,
+				051D7A0B2663798E00236E96 /* Manager */,
+				051D7A0A2663798100236E96 /* EndPoint */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		051D7A0A2663798100236E96 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				051D7A1E26639FC000236E96 /* AuthApi.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		051D7A0B2663798E00236E96 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				05EF7DC82665708300391BEA /* AuthController.swift */,
+				05EF7DCA2665743300391BEA /* NetworlHandler.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		051D7A0C2663799500236E96 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				051D7A0E266379FF00236E96 /* EndPointType.swift */,
+				051D7A1026637CE700236E96 /* HTTPMethod.swift */,
+				051D7A1226637DC500236E96 /* HTTPTask.swift */,
+				051D7A1A2663904C00236E96 /* NetworkRouter.swift */,
+				051D7A1C2663935C00236E96 /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		051D7A0D266379A200236E96 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				051D7A1426637EBF00236E96 /* ParameterEncoding.swift */,
+				051D7A1626638A8F00236E96 /* URLParameterEncoder.swift */,
+				051D7A1826638F6600236E96 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
 		0540B3FE2618749100D84562 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +181,15 @@
 		0540B4092618749100D84562 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				051D7A072663789B00236E96 /* Api */,
+				05ED159926191B1100F08984 /* ViewModels */,
+				05ED1598261911C800F08984 /* Models */,
+				05ED1597261911B600F08984 /* Views */,
 				0540B40A2618749100D84562 /* MessengerApp.swift */,
-				0540B40C2618749100D84562 /* ContentView.swift */,
 				0540B40E2618749200D84562 /* Assets.xcassets */,
 				0540B4132618749200D84562 /* Info.plist */,
 				0540B4102618749200D84562 /* Preview Content */,
+				05F7FB1E262898B800A9D529 /* Persistence.swift */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -128,6 +218,34 @@
 				0540B4292618749200D84562 /* Info.plist */,
 			);
 			path = MessengerUITests;
+			sourceTree = "<group>";
+		};
+		05ED1597261911B600F08984 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0540B40C2618749100D84562 /* ContentView.swift */,
+				054FE4D72619DB40000EE4EF /* LogInView.swift */,
+				054FE4E52619DCA7000EE4EF /* RegisterView.swift */,
+				0537DF722632D48E005E5058 /* ChatsView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		05ED1598261911C800F08984 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05EF7DCC266574CC00391BEA /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05ED159926191B1100F08984 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				05691F83261F4A5D00AF2FB9 /* LoginViewModel.swift */,
+				051F1FDF26343CDB00C5D3FF /* RegisterViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +377,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05EF7DCB2665743300391BEA /* NetworlHandler.swift in Sources */,
+				05EF7DC92665708300391BEA /* AuthController.swift in Sources */,
+				051D7A1926638F6600236E96 /* JSONParameterEncoder.swift in Sources */,
+				051D7A1526637EBF00236E96 /* ParameterEncoding.swift in Sources */,
+				0537DF732632D48E005E5058 /* ChatsView.swift in Sources */,
 				0540B40D2618749100D84562 /* ContentView.swift in Sources */,
+				051D7A1D2663935C00236E96 /* Router.swift in Sources */,
+				054FE4E62619DCA7000EE4EF /* RegisterView.swift in Sources */,
 				0540B40B2618749100D84562 /* MessengerApp.swift in Sources */,
+				05691F84261F4A5D00AF2FB9 /* LoginViewModel.swift in Sources */,
+				051D7A1326637DC500236E96 /* HTTPTask.swift in Sources */,
+				051D7A0F266379FF00236E96 /* EndPointType.swift in Sources */,
+				054FE4D82619DB40000EE4EF /* LogInView.swift in Sources */,
+				051D7A1F26639FC000236E96 /* AuthApi.swift in Sources */,
+				051D7A1726638A8F00236E96 /* URLParameterEncoder.swift in Sources */,
+				051D7A1126637CE700236E96 /* HTTPMethod.swift in Sources */,
+				051D7A1B2663904C00236E96 /* NetworkRouter.swift in Sources */,
+				051F1FE026343CDB00C5D3FF /* RegisterViewModel.swift in Sources */,
+				05F7FB1F262898B800A9D529 /* Persistence.swift in Sources */,
+				05EF7DCD266574CC00391BEA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -417,9 +553,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Messenger/Preview Content\"";
-				DEVELOPMENT_TEAM = JVCH76C2ZN;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Messenger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -429,6 +566,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ButtSurfer.Messenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,9 +577,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Messenger/Preview Content\"";
-				DEVELOPMENT_TEAM = JVCH76C2ZN;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Messenger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -451,6 +590,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ButtSurfer.Messenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
